@@ -61,5 +61,13 @@ describe ('when power saving mode is on', function (){
     expect(thermostat.getCurrentTemperature()).toEqual(32);
   });
 
+  it('can be reset using to the default temp', function(){
+    for (var = 0; i < 6; i++){
+      thermostat.up();
+    }
+    thermostat.resetTemp();
+    expect(thermostat.getCurrentTemperature()).toEqual(20);
+  });
+
 });
 });
