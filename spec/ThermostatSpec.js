@@ -70,4 +70,17 @@ describe ('when power saving mode is on', function (){
   });
 
 });
+
+describe('displaying useage levels', function(){
+  describe('when the temperature is below 18', function(){
+    it('is considered low useage', function(){
+      (for i = 0; i < 3; i++){
+        thermostat.decrease();
+      }
+      expect(thermostat.energyUseage()).toEqual("Low Useage")
+    });
+  });
+});
+
+
 });
