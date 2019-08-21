@@ -68,7 +68,6 @@ describe ('when power saving mode is on', function (){
     thermostat.resetTemperature();
     expect(thermostat.getCurrentTemperature()).toEqual(20);
   });
-
 });
 
 describe('displaying useage levels', function(){
@@ -80,6 +79,14 @@ describe('displaying useage levels', function(){
       expect(thermostat.energyUseage()).toEqual("Low Useage")
     });
   });
+
+  describe('when the temp is between 18 - 25 degrees', function(){
+    it('is considered medium useage', function(){
+      expect(thermostat.energyUseage()).toEqual("Medium Useage")
+    });
+  });
+
+  
 });
 
 
