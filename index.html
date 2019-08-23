@@ -29,7 +29,15 @@
 
 $(document).ready(function(){
   var t = new Thermostat();
+
   $('#temperature').text(t.temperature);
-})
+
+  $('#temp-up').on('click', function(){
+    t.increase();
+    $('#temperature').text(t.temperature);
+  })
+
+
+});
 
 </script>
