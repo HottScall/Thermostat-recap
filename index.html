@@ -9,7 +9,8 @@
   </head>
   <body>
     <section>
-      <h1 id="temperature"></h1>
+      <h1 id="title">Thermostat</h1>
+      <h1 id="temperature">Temperature</h1>
       <p>
         <button type="button" id="temp-up">Increase</button>
         <button type="button" id="temp-down">Decrease</button>
@@ -25,5 +26,10 @@
 
 
 <script>
+
+$(document).ready(function(){
+  var t = new Thermostat();
+  $('#temperature').text(t.temperature);
+})
 
 </script>
