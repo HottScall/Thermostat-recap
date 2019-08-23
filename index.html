@@ -37,6 +37,10 @@ $(document).ready(function(){
     $('#temperature').text(t.temperature);
   })
 
+  $('#temp-down').on('click', function(){
+    t.decrease();
+    $('#temperature').text(t.temperature);
+  })
 
 });
 
