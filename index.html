@@ -46,6 +46,17 @@ $(document).ready(function(){
     updateTemperature();
   })
 
+  $('#psm-on').on('click', function(){
+    t.switchPowerSavingModeOn();
+    updateTemperature();
+  })
+
+  $('#psm-off').on('click', function(){
+    t.switchPowerSavingModeOff();
+    updateTemperature();
+  })
+
+
   function updateTemperature(){
     $('#temperature').text(t.temperature);
   };
