@@ -1,0 +1,30 @@
+body {
+background-color: #BBDFF2;
+}
+
+button{
+background-color: white;
+
+}
+
+.Display {
+  background-color: black;
+  color: #4af700;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.Header {
+  text-align: center;
+
+}
+
+.Control_Panel {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+
+
+}
