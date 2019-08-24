@@ -41,6 +41,11 @@ $(document).ready(function(){
     updateTemperature();
   })
 
+  $('#reset').on('click', function(){
+    t.resetTemperature();
+    updateTemperature();
+  })
+
   function updateTemperature(){
     $('#temperature').text(t.temperature);
   };
