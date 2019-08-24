@@ -29,19 +29,22 @@
 
 $(document).ready(function(){
   var t = new Thermostat();
-
-  $('#temperature').text(t.temperature);
+  updateTemperature();
 
   $('#temp-up').on('click', function(){
     t.increase();
-    $('#temperature').text(t.temperature);
+    updateTemperature();
   })
 
   $('#temp-down').on('click', function(){
     t.decrease();
-    $('#temperature').text(t.temperature);
+    updateTemperature();
   })
 
+  function updateTemperature(){
+    $('#temperature').text(t.temperature);
+  };
 });
+
 
 </script>
