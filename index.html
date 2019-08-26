@@ -55,11 +55,13 @@ $(document).ready(function(){
 
   $('#psm-on').on('click', function(){
     t.switchPowerSavingModeOn();
+    $('#power-saver').text('on')
     updateTemperature();
   })
 
   $('#psm-off').on('click', function(){
     t.switchPowerSavingModeOff();
+    $('#power-saver').text('off')
     updateTemperature();
   })
 
