@@ -3,26 +3,23 @@ background-color: #52154E;
 }
 
 button{
-background-color: #DAE0F2;
+background-color: #B1DDF1;
 }
 
 .title, .temperature{
   text-align: center;
-  color: #B1DDF1;
+  text-decoration: #B1DDF1;
 }
 
 .display {
-  color: #B1DDF1;
   width: 25%;
   margin: auto;
   text-align: center;
 }
 
-.Control_Panel {
+.control_panel {
   text-align: center;
   margin: auto;
   width: 50%;
   height: 50%;
-
-
 }
