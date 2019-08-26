@@ -1,25 +1,9 @@
-body {
-background-color: #52154E;
+body{
+  background-color: #52154E;
+  text-align: center;
+  color: #B1DDF1;
 }
 
 button{
-background-color: #B1DDF1;
-}
-
-.title, .temperature{
-  text-align: center;
-  text-decoration: #B1DDF1;
-}
-
-.display {
-  width: 25%;
-  margin: auto;
-  text-align: center;
-}
-
-.control_panel {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  height: 50%;
+  color: #B1DDF1;
 }
