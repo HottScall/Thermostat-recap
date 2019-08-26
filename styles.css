@@ -4,7 +4,6 @@ background-color: #52154E;
 
 button{
 background-color: #DAE0F2;
-
 }
 
 .title, .temperature{
@@ -12,7 +11,7 @@ background-color: #DAE0F2;
   color: #B1DDF1;
 }
 
-.Display {
+.display {
   color: #B1DDF1;
   width: 25%;
   margin: auto;
