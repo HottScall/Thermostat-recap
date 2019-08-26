@@ -21,7 +21,7 @@
             <button type="button" id="temp-down">Chill Bill</button>
             <button type="button" id="reset">Reset</button>
             <h2 id="ps-title">Powa Sava:</h2>
-            <span id="power-saver">on</span>
+            <h3 id="power-saver">ON</h3>
             <button type="button" id="psm-on">Powa Sava On</button>
             <button type="button" id="psm-off">Powa Sava Off</button>
           </p>
@@ -55,13 +55,13 @@ $(document).ready(function(){
 
   $('#psm-on').on('click', function(){
     t.switchPowerSavingModeOn();
-    $('#power-saver').text('on')
+    $('#power-saver').text('ON')
     updateTemperature();
   })
 
   $('#psm-off').on('click', function(){
     t.switchPowerSavingModeOff();
-    $('#power-saver').text('off')
+    $('#power-saver').text('OFF')
     updateTemperature();
   })
 
