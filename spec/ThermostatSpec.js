@@ -76,13 +76,13 @@ describe('displaying usage levels', function() {
       for (var i = 0; i < 3; i++) {
         thermostat.decrease();
       }
-      expect(thermostat.energyUsage()).toEqual('Low Useage');
+      expect(thermostat.energyUsage()).toEqual('low-usage');
     });
   });
 
   describe('when the temperature is between 18 and 25 degrees', function() {
     it('it is considered medium-usage', function() {
-      expect(thermostat.energyUsage()).toEqual('Medium Useage');
+      expect(thermostat.energyUsage()).toEqual('medium-usage');
     });
   });
 
@@ -92,7 +92,7 @@ describe('displaying usage levels', function() {
       for (var i = 0; i < 6; i++) {
         thermostat.increase();
       }
-      expect(thermostat.energyUsage()).toEqual('High Useage');
+      expect(thermostat.energyUsage()).toEqual('high-usage');
     });
   });
 });

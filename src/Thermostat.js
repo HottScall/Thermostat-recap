@@ -56,10 +56,10 @@ Thermostat.prototype.resetTemperature = function(){
 
 Thermostat.prototype.energyUsage = function(){
   if (this.temperature < this.MED_ENERGY_USE){
-    return "Low Useage"
+    return "low-usage"
   }
   if (this.temperature >= this.MED_ENERGY_USE && this.temperature <= this.POWER_SAVING_ON_MAX){
-    return "Medium Useage"
+    return "medium-usage"
   }
-  return "High Useage"
+  return "high-usage"
 };
