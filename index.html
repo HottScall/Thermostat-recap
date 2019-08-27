@@ -16,7 +16,13 @@
         <h1 id="temperature">Temperature</h1>
       </div>
     <section>
-      <h2>Current Temperature:<span id="current-temperature"></span></h2>
+      <h2>Current Temperature: <span id="current-temperature"></span></h2>
+        <select ="currnet-city">
+          <option value="london">London</option>
+          <option value="newyork">New York</option>
+          <option value="paris">Paris</option>
+          <option value="tokyo">Tokyo</option>
+        </select>
     </section>
         <div id="control_panel">
           <p>
@@ -66,6 +72,10 @@ $(document).ready(function(){
     t.switchPowerSavingModeOff();
     $('#power-saver').text('OFF')
     updateTemperature();
+  })
+
+  $.get('http://api.openweathermap.org/data/2.5/weather?q=London&appid=a3d9eb01d4de82b9b8d0849ef604dbed&units=metric', function(data) {
+    $('#current-temperature').text(data.main.temp);
   })
 
 
