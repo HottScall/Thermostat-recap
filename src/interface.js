@@ -42,6 +42,13 @@ $(document).ready(function(){
     })
   }
 
+  displayWeather('London');
+    $('#select-city').submit(function(event) {
+    event.preventDefault();
+    var city = $('#current-city').val();
+    displayWeather(city);
+  })
+
 
   function updateTemperature(){
     $('#temperature').text(t.temperature);
