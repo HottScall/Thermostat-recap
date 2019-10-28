@@ -5,7 +5,9 @@
 
 <h2 algin="center">Getting Started</h2>
 
-Clone this repo, navigate to the directoy, Open SpecRunner.html in order to run tests.
+Clone this repo, navigate to the directoy then either: </br>
+Open SpecRunner.html in order to run tests. </br>
+Open index.html into chrome to view.
 
 <h2 align="centre">Tech Stack</h2>
 Javascript
