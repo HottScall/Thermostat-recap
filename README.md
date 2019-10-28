@@ -1,5 +1,5 @@
-<h1 align="centre"> Thermostat </h1>
-<h2 align="centre"> A basic thermostat model buit using Vanilla Javascript</h2>
+<h1 align="center"> Thermostat </h1>
+<h2 align="center"> A basic thermostat model buit using Vanilla Javascript</h2>
 
 
 
