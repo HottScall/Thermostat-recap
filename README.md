@@ -3,12 +3,14 @@
 
 
 
+<h2 algin="center">Getting Started</h2>
 
+Clone this repo, navigate to the directoy, Open SpecRunner.html in order to run tests.
 
 <h2 align="centre">Tech Stack</h2>
 Javascript
-Jasmine 
-JQuery
+Jasmine - In order to run tests for Jasmine, open the SpecRunner.html file for a list of previously written tests and their results 
+JQuery - For Front End design of the Thermostat
 
 
 <h2 align="centre"> Specification </h2>
