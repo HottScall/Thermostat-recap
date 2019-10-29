@@ -1,23 +1,22 @@
 body {
-background-color: #BBDFF2;
+background-color: #52154E;
 }
 
 button{
-background-color: white;
+background-color: #DAE0F2;
 
+}
+
+.title, .temperature{
+  text-align: center;
+  color: #B1DDF1;
 }
 
 .Display {
-  background-color: black;
-  color: #4af700;
+  color: #B1DDF1;
   width: 25%;
   margin: auto;
   text-align: center;
-}
-
-.Header {
-  text-align: center;
-
 }
 
 .Control_Panel {
