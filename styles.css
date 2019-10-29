@@ -5,15 +5,15 @@ body{
 }
 
 button{
-  color: #B1DDF1;
+  background-color: #B1DDF1;
 }
 
 .low-usage {
-  color: green;
+  color: #87CBAC;
 }
 
 .medium-usage {
-  color: black;
+  color: #B1DDF1;
 }
 
 .high-usage {
